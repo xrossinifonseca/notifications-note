@@ -1,0 +1,29 @@
+.header-notifi {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.text-header {
+  display: flex;
+  width: 50%;
+}
+
+.text-header h3 {
+  font-size: 20px;
+  width: auto;
+}
+.text-header span {
+  margin-left: 5px;
+  width: 25px;
+  font-size: 15px;
+  color: white;
+  background-color: rgb(62, 84, 163);
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 1px;
+}
+.header-notifi p {
+  color: rgb(92, 106, 158);
+  cursor: pointer;
+}

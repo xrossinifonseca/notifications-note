@@ -1,0 +1,52 @@
+.page-notifications {
+  width: 100%;
+  height: auto;
+  padding: 5px 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.notifications {
+  width: 100%;
+  height: auto;
+  background-color: rgba(136, 147, 182, 0.178);
+  padding: 5px 5px;
+  display: flex;
+  align-items: flex-start;
+}
+.read-notifications {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 5px 5px;
+  display: flex;
+  align-items: flex-start;
+}
+.info-notification {
+  display: flex;
+  align-items: flex-end;
+}
+
+.notifications img {
+  width: 9%;
+  margin-right: 5px;
+}
+.info-notification h5 {
+  font-weight: 900;
+  margin-right: 5px;
+}
+.info-notification p {
+  color: rgb(136, 136, 136);
+  font-size: 13px;
+}
+
+.content-notification span {
+  color: rgb(184, 180, 180);
+  font-size: 13px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.content-notification p {
+  color: rgb(184, 180, 180);
+  font-size: 13px;
+  border: 1px solid #ccc;
+}

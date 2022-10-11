@@ -1,0 +1,26 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(216, 214, 214);
+}
+.screen-notifi {
+  max-width: 600px;
+  width: 40%;
+  max-height: 600px;
+  height: 90%;
+  background-color: white;
+  border-radius: 10px;
+  overflow: auto;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+@media screen and (max-width: 600px) {
+  .screen-notifi {
+    width: 100%;
+    height: 100%;
+  }
+}
